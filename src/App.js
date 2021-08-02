@@ -1,12 +1,15 @@
 import "./App.css";
-import Accordion from "./component/Accordion";
+import Card from "./component/Card";
+// import Collapse from "./component/Collapse";
+// import Accordion from "./component/Accordion";
 // import FormValidation from "./component/FormValidation";
+// import ImageSlider from "./component/ImageSlider";
 
 function App() {
   return (
     <div className="App">
-      <h3>Bootstrap 5 Accordion</h3>
-      <Accordion />
+      <h3>MDB Bootstrap 5 Card Component</h3>
+      <Card />
     </div>
   );
 }
