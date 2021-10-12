@@ -1,5 +1,6 @@
 import "./App.css";
-import Card from "./component/Card";
+import Modal from "./component/Modal";
+// import Card from "./component/Card";
 // import Collapse from "./component/Collapse";
 // import Accordion from "./component/Accordion";
 // import FormValidation from "./component/FormValidation";
@@ -8,8 +9,8 @@ import Card from "./component/Card";
 function App() {
   return (
     <div className="App">
-      <h3>MDB Bootstrap 5 Card Component</h3>
-      <Card />
+      <h3>MDB Bootstrap 5 Modal Component</h3>
+      <Modal />
     </div>
   );
 }
